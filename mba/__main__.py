@@ -1,6 +1,7 @@
 """Entry point for mba."""
+from tools.geo_location.acts import *
 
-from .cli import main  # pragma: no cover
 
-if __name__ == "__main__":  # pragma: no cover
-    main()
+sp = State('SP')
+
+print(sp)
